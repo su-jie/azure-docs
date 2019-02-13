@@ -11,13 +11,13 @@ ms.topic: conceptual
 ms.date: 05/22/2018
 ---
 # Install Azure Stream Analytics tools for Visual Studio
-Azure Stream Analytics tools support Visual Studio 2017, 2015, and 2013. This article describes how to install and uninstall the tools.
+Azure Stream Analytics tools support Visual Studio 2019, 2017, 2015, and 2013. This article describes how to install and uninstall the tools.
 
 For more information on using the tools, see [Stream Analytics tools for Visual Studio](stream-analytics-quick-create-vs.md).
 
 ## Install
-### Visual Studio 2017
-* Download [Visual Studio 2017 (15.3 or above)](https://www.visualstudio.com/). Enterprise (Ultimate/Premium), Professional, and Community editions are supported. Express edition is not supported. 
+### Recommended: Visual Studio 2019 and 2017
+* Download [Visual Studio 2019 (Preview 3 or above) or Visual Studio 2017 (15.3 or above)](https://www.visualstudio.com/). Enterprise (Ultimate/Premium), Professional, and Community editions are supported. Express edition is not supported. Stream Analytics tools for Visual Studio does not support Visual Studio 2017 for Mac.
 * Stream Analytics tools are part of the **Azure development** and **Data storage and processing** workloads in Visual Studio 2017. Enable either one of these two workloads as part of your Visual Studio installation.
 
 Enable the **Data storage and processing** workload as shown:
@@ -32,7 +32,7 @@ Enable the **Azure development** workload as shown:
 
 ![Visual Studio extensions and updates](./media/stream-analytics-tools-for-visual-studio-install/stream-analytics-tools-for-vs-extensions-updates.png)
 
-### Visual Studio 2013, 2015
+### Visual Studio 2015, 2013
 * Install Visual Studio 2015 or Visual Studio 2013 Update 4. Enterprise (Ultimate/Premium), Professional, and Community editions are supported. Express edition is not supported. 
 * Install the Microsoft Azure SDK for .NET version 2.7.1 or above by using the [Web platform installer](https://www.microsoft.com/web/downloads/platform.aspx).
 * Install [Azure Stream Analytics tools for Visual Studio](https://www.microsoft.com/en-us/download/details.aspx?id=49504).
